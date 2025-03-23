@@ -4,11 +4,12 @@
     <img width="200px" src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg"><br>
     <i>Repositório destinado a entrega de projetos e desafios do bootcamp</i>
   </span>
+  
   # CSS Web Developer - DIO
 
-Bem-vindo ao repositório do curso CSS Web Developer da DIO (Digital Innovation One). Aqui você encontrará uma coleção de exercícios e o projeto prático desenvolvido durante o curso. O objetivo é consolidar os conhecimentos adquiridos.
+  Bem-vindo ao repositório do curso CSS Web Developer da DIO (Digital Innovation One). Aqui você encontrará uma coleção de exercícios e o projeto prático desenvolvido durante o curso. O objetivo é consolidar os conhecimentos adquiridos.
 
-<strong>Deploy projeto final:</strong> <a href="https://dio-html-web-developer.vercel.app/">Reconstrução da Wikipédia</a>
+  <strong>Deploy projeto final:</strong> <a href="https://dio-html-web-developer.vercel.app/">Reconstrução da Wikipédia</a>
 
 </div>
 
