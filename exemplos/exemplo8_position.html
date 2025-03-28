@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dio - Trilha de CSS - Position</title>
+        <style>
+            body {
+                font-family: Roboto, sans-serif;
+                height: 200hv;
+            }
+
+            .inline {
+                display: inline-block;
+            }
+
+            .exemplo {
+                width: 100px;
+                height: 100px;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+            #elemento-1 {
+                background-color: orange;
+                position: relative;
+                bottom: 30px;
+                left: 20px;
+            }
+
+            #elemento-2 {
+                background-color: palevioletred;
+                position: absolute;
+                opacity: 0.5;
+                left: 100px;
+            }
+
+            #elemento-3 {
+                background-color: palegreen;
+            }
+
+            #elemento-4 {
+                background-color: lightblue;
+                position: fixed;
+                top: 0;
+            }
+
+            #elemento-5 {
+                background-color: violet;
+                position: sticky;
+                top: 50px;
+            }
+
+            #elemento-6 {
+                background-color: blueviolet;
+            }
+
+            #elemento-pai {
+                box-sizing: border-box;
+                height: 300px;
+                padding: 10px;
+                border: 1px solid red;
+                position: relative;
+            }
+
+            #elemento-filho {
+                background-color: palegreen;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Posicionando os elementos em tela</h1>
+        <p>
+            A propriedade position vai ajudar a manipular a localização/posição
+            de elemento na sua página.
+        </p>
+
+        <ul>
+            <li><code>position: static;</code></li>
+            <li><code>position: relative;</code></li>
+            <li><code>position: absolute;</code></li>
+            <li><code>position: fixed;</code></li>
+            <li><code>position: sticky;</code></li>
+        </ul>
+
+        <h3>Exemplos:</h3>
+
+        <div id="elemento-1" class="exemplo inline">Elemento 01</div>
+        <div id="elemento-2" class="exemplo inline">Elemento 02</div>
+        <div id="elemento-3" class="exemplo inline">Elemento 03</div>
+
+        <hr />
+
+        <div id="elemento-4" class="exemplo">Elemento 04</div>
+        <div id="elemento-5" class="exemplo">Elemento 05</div>
+        <div id="elemento-6" class="exemplo">Elemento 06</div>
+
+        <hr />
+
+        <div id="elemento-pai">
+            <div id="elemento-filho" class="exemplo"></div>
+        </div>
+    </body>
+</html>

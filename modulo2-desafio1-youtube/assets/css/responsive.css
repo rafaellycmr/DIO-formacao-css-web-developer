@@ -1,0 +1,63 @@
+/* telas menores */
+@media (max-width: 1400px) {
+  div.divider {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+
+  div.divider aside {
+    width: auto;
+    margin-right: 1rem;
+  }
+}
+
+/* tablets */
+@media (max-width: 1000px) {
+  nav.menu div.centerMenu input.searchBar {
+    width: 20vw;
+  }
+
+  nav.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav div.rightButtons p {
+    display: none;
+  }
+}
+
+/* telas bem pequenas */
+@media (max-width: 580px) {
+  nav.menu div.leftMenu {
+    gap: 0;
+  }
+
+  nav.menu div.leftMenu img {
+    width: 75px;
+  }
+
+  nav.menu div.rightMenu {
+    gap: 0;
+  }
+
+  nav.menu div.centerMenu input.searchBar {
+    width: 0;
+    border: 0;
+  }
+
+  nav.menu div.centerMenu div.searchBoxImage {
+    border-radius: 25px 25px;
+    width: 2rem;
+  }
+
+  div.divider div.thumb div.thumbDescription h1 {
+    font-size: .8rem;
+  }
+
+  div.divider div.thumb div.thumbDescription p {
+    display: none;
+  }
+}

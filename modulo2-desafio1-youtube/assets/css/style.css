@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@@300;400;500;600;700&display=swap');
+
+@import url(./reset.css);
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+svg {
+  width: 1.4rem;
+}
+
+p,
+h1,
+img:hover {
+  cursor: pointer;
+}
+
+/* nav top */
+nav.menu {
+  background-color: #ffffff;
+  width: auto;
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+nav.menu div.leftMenu {
+  display: flex;
+  align-items: center;
+  margin-left: 2.2rem;
+  gap: 1rem;
+}
+
+nav.menu div.leftMenu img {
+  width: 100px;
+}
+
+nav.menu div.centerMenu {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu div.centerMenu input.searchBar {
+  width: 28.93rem;
+  height: 2rem;
+  border: 0.08px solid #cccccc;
+  border-radius: 25px 0 0 25px;
+  padding-left: 1rem;
+}
+
+nav.menu div.centerMenu div.searchBoxImage {
+  border: 0.08px solid #cccccc;
+  border-radius: 0 25px 25px 0;
+  background: #f2f2f2;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.menu div.centerMenu div.searchBoxImage:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+  animation: hoverButtons 0.7s;
+}
+
+nav.menu div.rightMenu {
+  display: flex;
+  align-items: center;
+  margin-right: 2.06rem;
+  gap: 1rem;
+}
+
+nav.menu div.rightMenu div.avatarNav {
+  background-image: url(../images/avatar.png);
+  background-size: contain;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Hover animation Nav*/
+div.hoverButtons {
+  background-color: transparent;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.hoverButtons:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+  animation: hoverButtons 0.7s;
+}
+
+@keyframes hoverButtons {
+  from {
+    opacity: 0.85;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* divider main */
+div.divider {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin-left: 2rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* main */
+div.divider main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+iframe {
+  width: 100%;
+  min-height: 39vw;
+}
+
+p.videoTitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* buttons */
+nav.buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav div.leftButtons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+nav div.leftButtons div.avatarImage {
+  background-image: url(../images/hbo-max-avatar.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 2.83rem;
+  height: 2.83rem;
+}
+
+nav div.leftButtons p.channelName {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+nav div.leftButtons p.subscribersTotal {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+nav div.leftButtons #subscriberButton {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+nav div.rightButtons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav div.bgButton {
+  background-color: #f2f2f2;
+  width: auto;
+  height: 2.5rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+nav div.bgButton:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+  animation: hoverButtons 0.7s;
+}
+
+/* description */
+p.description {
+  background-color: #f2f2f2;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  font-weight: 300;
+}
+
+/* filter and comments */
+div.filterComments {
+  width: 100%;
+  height: 2.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 400;
+}
+
+div.sortBy {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+/* aside */
+div.divider aside {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  gap: 0.5rem;
+}
+
+div.divider div.thumb {
+  display: flex;
+  gap: 0.7rem;
+}
+
+div.divider div.thumb img {
+  width: 11rem;
+  height: 6.4rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+div.divider div.thumb div.thumbDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.1rem;
+}
+
+div.divider div.thumb div.thumbDescription h1 {
+  font-weight: 500;
+}
+
+div.divider div.thumb div.thumbDescription p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  white-space: pre-line;
+}

@@ -1,0 +1,179 @@
+.container{
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.item{
+    background: orange;
+    margin: 10px;
+}
+
+#container-01{
+    flex-direction: row-reverse;
+}
+
+#container-02 {
+    flex-direction: column-reverse;
+    height: 250px;
+}
+
+.container2 {
+    background: paleturquoise;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item2 {
+    background: orangered;
+    margin: 10px;
+}
+
+#container-021 {
+    flex-direction: row;
+}
+
+#container-022 {
+    flex-direction: column;
+    height: 250px;
+}
+
+.container3 {
+    background: palegoldenrod;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    display: flex;
+}
+
+.item3 {
+    background: blueviolet;
+    margin: 10px;
+}
+
+#container-031 {
+    flex-flow: row wrap;
+}
+
+#container-032 {
+    flex-flow: column wrap-reverse;
+    height: 250px;
+}
+
+.container4 {
+    background: palegoldenrod;
+    /* padding: 20px; */
+    margin: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item4 {
+    background: blueviolet;
+    /* margin: 10px; */
+}
+
+#container-041 {
+    flex-flow: row wrap;
+}
+
+#container-042 {
+    flex-flow: column wrap-reverse;
+    height: 250px;
+}
+
+.container5 {
+    background: palegoldenrod;
+    /* padding: 20px; */
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.item5 {
+    background: blueviolet;
+    /* margin: 10px; */
+}
+
+#container-051 {
+    flex-flow: row wrap;
+    height: 300px;
+}
+
+#container-052 {
+    flex-flow: column wrap;
+    height: 300px;
+}
+
+.item5-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.item5-2 {
+    width: 80px;
+    height: 80px;
+}
+
+.item5-3 {
+    width: 40px;
+    height: 40px;
+}
+
+
+.container6 {
+    background: palegoldenrod;
+    /* padding: 20px; */
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content:  flex-end;
+}
+
+.item6 {
+    background: blueviolet;
+    height: 40px;
+    width: 40px;
+}
+
+#container-061 {
+    flex-flow: row wrap;
+    height: 300px;
+}
+
+#container-062 {
+    flex-flow: column wrap;
+    height: 300px;
+}
+
+.container7 {
+    background: palegoldenrod;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px
+}
+
+.item7 {
+    background: blueviolet;
+}
+
+#container-071 {
+    flex-direction: row;
+}
+
+#container-072 {
+    flex-direction: column;
+}
